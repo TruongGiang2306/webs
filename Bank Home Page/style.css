@@ -113,7 +113,7 @@ header {
   padding: 40px 0;
   border-radius: 5px;
   z-index: -1;
-  opacity: 0;
+  transform: scale(0);
   transition: 0.5s ease;
   pointer-events: none;
 }
@@ -129,7 +129,7 @@ header {
 }
 
 .navbar-nav.active {
-  opacity: 1;
+  transform: scale(1);
   top: calc(60px + 20px);
   box-shadow: 0 0 100px hsla(233, 26%, 24%, 0.2);
   pointer-events: all;
